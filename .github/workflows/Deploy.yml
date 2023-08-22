@@ -85,7 +85,7 @@ jobs:
           # Thread count, for instance 2.0C where C is core multiplied
           threads: # optional
           # Comma separated list of goals to execute
-          goals: clean install
+          goals: mvn clean install
           # Comma separated list of phases to execute
           phases: # optional          
           
